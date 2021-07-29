@@ -111,6 +111,11 @@ public class CharacterListFragment extends ListFragment implements GETCharacters
 
     @Override
     public void GETCharacterCallback(ArrayList<Character> characters) {
+        if(characters == null){
+            new GETCharactersAsyncTask(CharacterListFragment.this).execute(String.valueOf(pagingSize),String.valueOf(offset));
+            return;
+        }
+
         if(characters.size() > 0){
             for (Character character : characters){
                 if(favoriteCharactersIDs.contains(character.getId())){
