@@ -1,5 +1,7 @@
 package com.example.androidchallenge;
 
+// Android Challenge - Christopher Sandoval
+
 import android.os.Bundle;
 import android.view.MenuItem;
 
