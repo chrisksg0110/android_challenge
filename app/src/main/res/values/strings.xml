@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android Challenge</string>
+    <string name="occupation">Occupation:</string>
+    <string name="status">Status:</string>
+    <string name="portrayed">Portrayed:</string>
+    <string name="placeholder">PLACEHOLDER TEXT</string>
+
 </resources>
